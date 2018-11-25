@@ -30,5 +30,7 @@ log.info("INFO a {} b {}",JsonUtil.ObjectToJson(instance),"success");
 首先导入logflux的jar包，logflux目前已经对slf4j进行了支持，仅需将原先导入的slf4j的包修改为logflux的包即可
 
 `org.slf4j.Logger -> org.github.logflux.slf4j.Logger`
+
+
 `org.slf4j.LoggerFactory -> org.github.logflux.slf4j.LoggerFactory`
 # logflux
