@@ -1,6 +1,6 @@
 # logflux
 
-logflux是一个日志框架，用于延迟日志字符串的生成时间
+logflux是一个日志框架的lambda表达式包装，用于延迟日志字符串的生成时间
 
 ### 传统日志
 ```java
@@ -33,4 +33,4 @@ log.info("INFO a {} b {}",JsonUtil.ObjectToJson(instance),"success");
 
 
 `org.slf4j.LoggerFactory -> org.github.logflux.slf4j.LoggerFactory`
-# logflux
+
